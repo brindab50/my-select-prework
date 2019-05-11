@@ -3,7 +3,7 @@ def my_select(collection)
   i = 0
   while i < collection.length
    new_collection.{|i| new_collection }
-  yield collection[1]
+ if  yield collection[1] == 
     i = i + 1 
 end
 new_collection
